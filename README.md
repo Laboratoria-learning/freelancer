@@ -35,7 +35,7 @@ a lograr:
   estructura de tu proyecto y enlazar tus archivos de estilos (CSS).
 
 * En la carpeta `css` tendrás un archivo base `main.css` donde agregarás los
-  estilos necesarios para tu proyecto:
+  estilos necesarios para tu proyecto.
 
 * Dentro de la carpeta `assets` se encuentra la carpeta `images` donde
   encontrarás todas las imágenes necesarias para completar tu proyecto.
