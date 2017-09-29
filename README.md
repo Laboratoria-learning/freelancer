@@ -10,12 +10,12 @@ Para completar este reto, hemos creado este repositorio boilerplate (plantilla
 inicial) con todos los recursos que necesitas. Esto incluye imágenes y
 estructura de carpetas y archivos donde colocarás tu código.
 
-## Flujo de trabajo
+## Flujo de trabajo
 
 1. Debes realizar un [**fork**](https://gist.github.com/ivandevp/1de47ae69a5e139a6622d78c882e1f74)
    de este repositorio.
 
-2. Luego deberás **clonar* tu fork en tu máquina. Recuerda que el comando a usar
+2. Luego deberás **clonar** tu fork en tu máquina. Recuerda que el comando a usar
    es `git clone` y su estructura normalmente se ve así:
 
    ```bash
