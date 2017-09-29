@@ -51,6 +51,12 @@ a lograr:
 
 * Los íconos de redes sociales puedes obtenerlos de [Font Awesome](http://fontawesome.io/).
 
+* Para este reto, encontrarás ciertas cosas que probablemente aun no has visto
+  en clase (formularios). No te preocupes, estamos seguros que lo afrontarás con
+  éxito, de igual forma aquí unos tips:
+
+  - Para el formulario, revisa las etiquetas como `form`, `input`, `button`.
+
 * El subrayado que incluye la estrella en las diversas secciones del sitio, en
   la web original se hace con un ícono y pseudoelementos (`:after`, `:before`),
   es un reto entretenido, sin embargo, no trates de enfocarte en esa parte desde
