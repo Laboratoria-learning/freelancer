@@ -1,3 +1,143 @@
-/*
- * Estilos de tu proyecto
- */
+body{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Lato',sans-serif;
+    position: relative;
+}
+/* Fuentes */
+h1,h2{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 2em;
+}
+/* Estilos para el header */
+header{
+    top: 0%;
+    width: 100%;
+    height: 8vh;
+    max-height:fit-content; 
+    background: #2c3e50;
+    color: white;
+    z-index: 1;
+}
+header > *{
+    display: inline-block;
+    position: relative;
+    left: 1em;
+}
+header .logo{
+    width: 50%;
+    /* left: 1%; */
+}
+header .navbar{
+    width: 50%;
+    float: right;
+    top: 1vh;
+    
+}
+.navbar li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    position: relative;
+    top: 1vh;
+}
+.navbar li a{
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: white;
+    top: 1vh;
+    
+}
+
+/* Estilos para el Hero */
+section.hero{
+    min-height: 70vh;
+    max-height: fit-content;
+    position: relative;
+    top: 8vh;
+}
+section.hero{
+    background: #18bc9c;
+
+}
+section.hero h2{
+    font-size: 2.5em;
+}
+section.hero > *{
+    position: relative;
+    color: white;
+    top:2vh;
+}
+div.estrella *{
+    display: inline-block;
+    width: 5%;
+    position: relative;
+    font-size: 1em;
+}
+div.estrella hr{
+    border: solid 2px;
+}
+article.banner {
+    width: 50%;
+    position: relative;
+    left: 25%;
+    top: 2em;
+}
+/* Estilos para el portfolio  */
+section.portfolio{
+    min-height: 100vh;
+    position: relative;
+    top: 8vh;
+    left: 0%;
+    width: 100%;
+    text-align: center;
+}
+section.projects{
+    width: 100%;
+}
+section.projects article{
+    width: 30%;
+    display: inline-block;
+    margin: 1em;
+}
+section.projects article img{
+    width: 90%;
+}
+/* Estilos About */
+section.about{
+    min-height: 30vh;
+    background-color: #18bc9c;
+    position: relative;
+    top: 8vh;
+    padding: 1em;
+}
+section.about .description{
+    display: inline-block;
+    width: 40%;
+    font-size: 1.5em;
+
+}
+
+/* Estilos generales */
+.fixed{
+    position: fixed;
+}
+.center{
+    text-align: center;
+}
+.row{
+    width: 100%;
+}
+.white-color{
+    color: white;
+}
+.gray-color{
+    color: #212529;
+}
+.circle{
+    border-radius: 50%;
+    min-height: 1em;
+    min-width: 1%;
+}
