@@ -26,4 +26,14 @@ body {
 
 }
 
+h1 {
+  color: white;
+}
 
+h2 {
+  color: rgb(7, 7, 7);
+}
+
+.home_container {
+  background-color: #18bc9c;
+}
