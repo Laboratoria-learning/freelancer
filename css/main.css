@@ -1,31 +1,139 @@
-/*
- * Estilos de tu proyecto
- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******************** SECCION PORTAFOLIO **********************/
+.page-box {
+  background-color: white;
+}
 
 .title-portafolio {
-  font-size: 23px;
+  font-size: 40px;
   font-weight: bolder;
+  text-align: center;
+  color: gray;
 }
 
 .page-img {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  gap: 20px 20px;
+  gap: 20px;
   grid-auto-flow: row;
   grid-template-areas:
   "img-cabin img-cake img-circus"
   "img-game img-safe img-submarine";
+  justify-items: stretch;
+  justify-items: center;
+  margin: 50px 100px 50px 100px;
 }
 
-.img-cabin { grid-area: img-cabin; }
-
-.img-cake { grid-area: img-cake; }
-
-.img-circus { grid-area: img-circus; }
-
-.img-game { grid-area: img-game; }
-
-.img-safe { grid-area: img-safe; }
-
-.img-submarine { grid-area: img-submarine; }
+img {
+  object-fit:contain ;
+  width: 100%;
+}
