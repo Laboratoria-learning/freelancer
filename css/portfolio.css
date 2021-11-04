@@ -8,7 +8,7 @@
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-    padding-top: 5%;
+    padding-top: 50px;
 }
 .head-portfolio-container {
     display: flex;
@@ -19,11 +19,9 @@
     font-weight: bold;
     color: #2C3E50
 }
-.head-portfolio::after {
-    content: '\A —— ★ ——';
-    white-space: pre;
-    align-self: center;
-    color: #2C3E50
+.head-underlined::after {
+    content: '\A  —— ★ ——';
+    white-space: pre
 }
 .img-container {
     width: 80%;
@@ -35,5 +33,5 @@
 .set-img {
     width: 30%;
     padding: 20px;
-    border-radius: 30px;
+    border-radius: 25px;
 }
