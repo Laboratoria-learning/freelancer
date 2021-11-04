@@ -2,6 +2,11 @@
  * Estilos de tu proyecto
  */
 
+.title-portafolio {
+  font-size: 23px;
+  font-weight: bolder;
+}
+
 .page-img {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
