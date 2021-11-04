@@ -62,7 +62,7 @@ a lograr:
   es un reto entretenido, sin embargo, no trates de enfocarte en esa parte desde
   un inicio ya que no es el objetivo principal del reto :)
 
-* Puedes ver el [sitio original](https://blackrockdigital.github.io/startbootstrap-freelancer/)
+* Puedes ver el [sitio original](https://startbootstrap.com/previews/freelancer)
   para que te des una idea de como debe quedar.
 
   > Nota: El sitio original tiene ciertos efectos y funcionalidades que
