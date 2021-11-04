@@ -1,3 +1,26 @@
 /*
  * Estilos de tu proyecto
  */
+
+.page-img {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px 20px;
+  grid-auto-flow: row;
+  grid-template-areas:
+  "img-cabin img-cake img-circus"
+  "img-game img-safe img-submarine";
+}
+
+.img-cabin { grid-area: img-cabin; }
+
+.img-cake { grid-area: img-cake; }
+
+.img-circus { grid-area: img-circus; }
+
+.img-game { grid-area: img-game; }
+
+.img-safe { grid-area: img-safe; }
+
+.img-submarine { grid-area: img-submarine; }
