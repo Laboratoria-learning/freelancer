@@ -1,4 +1,4 @@
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -7,14 +7,14 @@ html{
   scroll-margin-top: 70px;
 }
 
-header{  
+header {
   width: 100%;
   background-color: #2c3e50;
   position: fixed;
   top: 0;
   color: white;  
 }
-nav{
+nav {
   display: grid;
   margin: 10px;
   grid-template-columns: 1fr auto;
@@ -29,10 +29,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-family: "Lato", sans-serif;
   *background-color: aqua;
-
 }
-
-
 
 .home_container {
   padding: 7%;
@@ -43,10 +40,9 @@ body {
   color: white;
 }
 
-.title {  
+.title {
   font-size: 70px;
 }
-
 
 .portafolio_container{
   margin: 7%;
@@ -62,19 +58,18 @@ justify-content: center;
   column-gap: 2%;
 }
 
-.portafolio_container__img > img{
+.portafolio_container__img > img {
   padding: 0px;
   margin: 0px;
 }
-.portafolio_container > h1{
-text-align: center;
-font-size: 50px;
-  
+.portafolio_container > h1 {
+  text-align: center;
+  font-size: 50px;
 }
 
-.fas fa-star{
+.fas fa-star {
   height: 10px;
-    width: 10px;
+  width: 10px;
 }
 
 .contact_container {
@@ -126,3 +121,51 @@ font-size: 50px;
   margin: 20px 0px 0px 0px;
 }
 
+.about_container {
+  background-color: #18bc9c;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+.title {
+  padding-top: 40px;
+  font-size: 50px;
+}
+.text_about {
+  column-count: 2;
+  width: 100%;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.first {
+  margin-left: 100px;
+}
+.second {
+  margin-right: 200px;
+}
+.text_about p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 40px;
+  padding: 0 20px;
+  text-align: justify;
+  width: 80%;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+.about_container button {
+  background-color: #18bc9c;
+  color: white;
+  border-radius: 2px;
+  border: 2px solid white;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  height: 80px;
+  font-size: 40px;
+  margin-top: 40px;
+}
