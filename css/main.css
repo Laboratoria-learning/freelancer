@@ -1,7 +1,29 @@
+html{
+  scroll-behavior: smooth;
+}
+
+section[id] {
+  scroll-margin-top: 70px;
+}
+
+header{
+  display: flex;
+  width: 100%;
+  background-color: #2c3e50;
+  position: fixed;
+  top: 0;
+  color: white;
+  justify-content: space-between;
+}
+a {
+  color: white;
+}
 body {
+  margin-top: 8%;
   font-family: "Montserrat", sans-serif;
   font-family: "Lato", sans-serif;
   *background-color: aqua;
+
 }
 
 h1 {
