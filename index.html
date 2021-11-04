@@ -25,9 +25,9 @@
         <nav>
             <h2>START BOOTSTRAP</h2>
             <section>
-                <a href="">Portafolio</a>
-                <a href="">About</a>
-                <a href="">Contact</a>
+                <a href="#portafolio">Portafolio</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
             </section>
         </nav>
 
@@ -35,54 +35,57 @@
 
     <main>
         <section class="home_container">
-            <img src="" alt="">
-            <h1>START BOOTSTRAP</h1>
-            <span>---- i---</span>
-            <h2>Web developer - Graphic Artis - User Expience Desing</h2>
+            <br>
+            <img src="./assets\images/profile.png" alt="logo">
+            <h1 class="title">START BOOTSTRAP</h1>
+            <span>---- * ---</span>
+            <h2>Web Developer - Graphic Artis - User Experience Designer</h2>
         </section>
+
 
         <section class="portafolio_container">
-            <h1></h1>
-            <span>---i---</span>
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
+            <h1>PORTFOLIO</h1>
+            <span><i class="fas fa-star"></i></span>
+            <section class="portafolio_container__img">
+                <img src="assets/images/portfolio/cabin.png" width="250" height="200" alt="">
+                <img src="assets/images/portfolio/cake.png" width="250" height="200" alt="">
+                <img src="assets/images/portfolio/circus.png" width="250" height="200" alt="">
+                <img src="assets/images/portfolio/game.png" width="250" height="200" alt="">
+                <img src="assets/images/portfolio/safe.png" width="250" height="200" alt="">
+                <img src="assets/images/portfolio/submarine.png" width="250" height="200" alt="">
+            </section>
         </section>
 
-        <section class="about_container">
-            <h1>ABOUT</h1>
+        <section class="about_container" id="about">
+            <h1 class="title">ABOUT</h1>
             <i class="fas fa-star"></i>
             <section class="text_about">
-                <!-- <section class="first"> -->
-                <p> Freelancer is a free bootstrap theme created by Start Bootstrap.
-                    The download includes the complete source files including HTML,CSS,
-                    and Javascript as well as options LESS stylesheets for easy customization.</p>
-                <!-- </section>
-                <section class="first"> -->
-                <p> Whether you're a student looking to showcase you work, a professional looking to share
-                    your projects, this template is the perfect starting point!</p>
-                <!-- </section> -->
+                <section class="first">
+                    <p class="first"> Freelancer is a free bootstrap theme created by Start Bootstrap.
+                        The download includes the complete source files including HTML,CSS,
+                        and Javascript as well as options LESS stylesheets for easy customization.</p>
+                </section>
+                <section class="second">
+                    <p class="second"> Whether you're a student looking to showcase you work, a professional looking to
+                        share
+                        your projects, this template is the perfect starting point!</p>
+                </section>
             </section>
             <button><i class="fas fa-download"></i> Download theme</button>
             </br>
         </section>
 
         <section class="contact_container">
-
             <h1>CONTACT ME</h1>
-            <span>---i--</span>
-            <form action="">
-                <input type="text">
-                <input type="text">
-                <input type="text">
-                <textarea name="" id="" cols="30" rows="10"></textarea>
-                <button type="submit">SEND</button>
+            <span><i class="fas fa-star"></i></span>
+            <form action="" class="formContact">
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Email Address">
+                <input type="text" placeholder="Phone Number">
+                <textarea name="" id="" cols="30" rows="4" placeholder="Messaje"></textarea>
 
+                <button type="submit">Send</button>
             </form>
-
         </section>
 
         <section class="footer_container">
@@ -101,14 +104,7 @@
                     <span></span>
                     <span></span>
                 </section>
-            </section>
 
-            <section>
-                <h2>ABOUT FREELANCER</h2>
-                <p></p>
-            </section>
-
-        </section>
 
     </main>
 
