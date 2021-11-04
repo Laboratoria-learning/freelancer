@@ -3,27 +3,29 @@ html{
 }
 
 #portafolio #about #contact {
+  
   scroll-margin-top: 70px;
 }
 
-header{
-  
+header{  
   width: 100%;
   background-color: #2c3e50;
   position: fixed;
   top: 0;
-  color: white;
-  
+  color: white;  
 }
 nav{
   display: grid;
+  margin: 10px;
   grid-template-columns: 1fr auto;
 }
 a {
+  margin: 10px;
+  top: 20px;
   color: white;
 }
 body {
-  margin-top: 8%;
+  margin-top: 5%;
   font-family: "Montserrat", sans-serif;
   font-family: "Lato", sans-serif;
   *background-color: aqua;
@@ -33,6 +35,7 @@ body {
 
 
 .home_container {
+  padding: 7%;
   background-color: #18bc9c;
   display: flex;
   align-items: center;
@@ -46,9 +49,11 @@ body {
 
 
 .portafolio_container{
+  margin: 7%;
 justify-content: center;
 }
 .portafolio_container__img{
+  margin: 7%;
   align-content: center;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
