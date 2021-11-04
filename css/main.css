@@ -31,3 +31,16 @@ body {
 }
 
 
+
+.home_container {
+  background-color: #18bc9c;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+.title {  
+  font-size: 70px;
+}
+
