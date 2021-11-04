@@ -1,3 +1,5 @@
-/*
- * Estilos de tu proyecto
- */
+body {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Lato", sans-serif;
+  *background-color: aqua;
+}
