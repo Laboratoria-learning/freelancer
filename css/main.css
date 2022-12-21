@@ -1,3 +1,214 @@
-/*
- * Estilos de tu proyecto
- */
+html {
+  scroll-behavior: smooth;
+}
+
+#portafolio #about #contact {
+  scroll-margin-top: 70px;
+}
+
+header {
+  width: 100%;
+  background-color: #2c3e50;
+  position: fixed;
+  top: 0;
+  color: white;
+}
+nav {
+  display: grid;
+  margin: 10px;
+  grid-template-columns: 1fr auto;
+}
+a {
+  margin: 10px;
+  top: 20px;
+  color: white;
+}
+body {
+  margin-top: 5%;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Lato", sans-serif;
+  *background-color: aqua;
+  padding: 0;
+  margin: 0;
+}
+
+.home_container {
+  padding: 7%;
+  background-color: #18bc9c;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+.title {
+  font-size: 70px;
+}
+
+.portafolio_container {
+  margin: 7%;
+  justify-content: center;
+}
+.portafolio_container__img {
+  margin: 7%;
+  align-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 0px;
+  row-gap: 2%;
+  column-gap: 2%;
+}
+
+.portafolio_container__img > img {
+  padding: 0px;
+  margin: 0px;
+}
+.portafolio_container > h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+/* .fas fa-star {
+  height: 10px;
+  width: 10px;
+} */
+
+.contact_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Lato", sans-serif;
+  background: white;
+  width: 100%;
+  padding: 60px 0px 60px 0px;
+}
+.contact_container > h1 {
+  font-size: 50px;
+  *padding: 0px 0px 0px 0px;
+  margin: 30px 0px 0px 0px;
+  color: rgb(37, 37, 37);
+}
+
+.iForm {
+  color: rgb(48, 48, 51);
+  font-size: 25px;
+  padding: 0px 0px 10px 0px;
+}
+.formContact {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  font-family: "Lato", sans-serif;
+}
+.formContact > input,
+.formContact > textarea {
+  padding: 0px 10px 0px 10px;
+  font-size: 18px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid 2px rgb(223, 219, 219);
+  width: 700px;
+  height: 60px;
+  margin-bottom: 10px;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+}
+.formContact > textarea {
+  padding-top: 10px;
+  width: 700px;
+  height: 100px;
+}
+.formContact > input::placeholder,
+.formContact > textarea::placeholder {
+  color: rgb(177, 174, 174);
+}
+.formContact > input:focus,
+.formContact > textarea:focus {
+  outline-color: rgb(177, 174, 174);
+}
+.btnForm {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  background-color: #18bc9c;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  height: 35px;
+  width: 55px;
+  margin: 20px 0px 0px 0px;
+}
+
+.about_container {
+  background-color: #18bc9c;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+.title {
+  padding-top: 40px;
+  font-size: 50px;
+}
+.text_about {
+  column-count: 2;
+  width: 100%;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.first {
+  margin-left: 100px;
+}
+.second {
+  margin-right: 200px;
+}
+.text_about p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 30px;
+  padding: 0 20px;
+  text-align: justify;
+  width: 80%;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+.about_container button {
+  background-color: #18bc9c;
+  color: white;
+  border-radius: 2px;
+  border: 2px solid white;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  height: 80px;
+  font-size: 40px;
+  margin-top: 40px;
+}
+
+.info_container {
+  background-color: #2c3e50;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  padding: 15px 0px 30px 0px;
+  font-size: 15px;
+}
+
+.iconWeb {
+  padding: 20px 5px 0px 5px;
+  font-size: 30px;
+}
+footer {
+  background-color: #2c3e50;
+  text-align: center;
+  color: white;
+  padding: 10px 0px 20px 0px;
+  font-size: 14px;
+}
